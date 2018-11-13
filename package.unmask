@@ -1,0 +1,12 @@
+# required by www-client/w3m-0.5.3_p20180125::gentoo[ssl,-libressl]
+# required by virtual/w3m-0::gentoo
+# required by app-text/xmlto-0.0.28-r1::gentoo[text]
+# required by sys-apps/dbus-1.10.24::gentoo
+# required by app-accessibility/at-spi2-core-2.24.1::gentoo
+# required by app-accessibility/at-spi2-atk-2.24.1::gentoo
+# required by x11-libs/gtk+-3.22.30::gentoo[X]
+# required by x11-themes/adwaita-icon-theme-3.24.0::gentoo
+# /usr/portage/profiles/package.mask:
+# Lars Wendler <polynomial-c@gentoo.org> (26 Aug 2016)
+# Masked while being tested and reverse deps aren't fully compatible
+=dev-libs/openssl-1.1.1-r1
