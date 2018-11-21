@@ -1,9 +1,0 @@
-sys-boot/grub:2 device-mapper
-# required by x11-drivers/xf86-video-intel-2.99.917_p20180214-r1::gentoo
-# required by xf86-video-intel (argument)
->=x11-libs/libdrm-2.4.96 video_cards_intel
-# required by net-print/cups-filters-1.20.4::gentoo[postscript]
-# required by net-print/cups-2.2.7::gentoo
-# required by www-client/google-chrome-70.0.3538.77::gentoo
-# required by google-chrome (argument)
->=app-text/ghostscript-gpl-9.25 cups
