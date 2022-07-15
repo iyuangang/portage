@@ -1,0 +1,10 @@
+CC="gcc"
+CXX="g++"
+
+# $N refers to the amount of threads used during LTO, you should usually set it to the value of $(nproc)
+CFLAGS="-flto=4 -march=native -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"
