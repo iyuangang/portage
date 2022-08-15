@@ -1,7 +1,1 @@
-sys-firmware/intel-microcode initramfs
-# required by net-misc/networkmanager-1.38.2::gentoo[-iwd,wifi]
-# required by net-misc/networkmanager (argument)
->=net-wireless/wpa_supplicant-2.10-r1 dbus
-# required by net-firewall/firewalld-1.1.1::gentoo[nftables,iptables]
-# required by firewalld (argument)
->=net-firewall/nftables-1.0.2-r1 xtables json python
+net-firewall/nftables xtables json python

@@ -1,10 +1,1 @@
-sys-firmware/intel-microcode initramfs
-# required by net-misc/networkmanager-1.38.2::gentoo[-iwd,wifi]
-# required by net-misc/networkmanager (argument)
->=net-wireless/wpa_supplicant-2.10-r1 dbus
-# required by gnome-base/gnome-keyring-42.1::gentoo
-# required by virtual/secret-service-0::gentoo
-# required by app-crypt/libsecret-0.20.5-r3::gentoo
-# required by app-editors/vscode-1.69.2::gentoo
-# required by vscode (argument)
->=app-crypt/gcr-3.41.0 gtk
+app-crypt/gcr gtk

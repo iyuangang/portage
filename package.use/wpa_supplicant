@@ -1,4 +1,1 @@
-sys-firmware/intel-microcode initramfs
-# required by net-misc/networkmanager-1.38.2::gentoo[-iwd,wifi]
-# required by net-misc/networkmanager (argument)
->=net-wireless/wpa_supplicant-2.10-r1 dbus
+net-wireless/wpa_supplicant dbus
